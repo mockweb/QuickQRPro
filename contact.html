@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - QuickQR Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root { --primary: #4f46e5; --bg-gradient: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%); --glass: rgba(255, 255, 255, 0.7); --glass-border: rgba(255, 255, 255, 0.5); --text: #1e293b; --text-light: #64748b; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-gradient); color: var(--text); display: flex; flex-direction: column; min-height: 100vh; }
+        nav { background: var(--glass); border-bottom: 1px solid var(--glass-border); padding: 15px 5%; }
+        .logo { font-weight: 800; font-size: 1.3rem; color: var(--primary); text-decoration: none; }
+        .container { max-width: 800px; margin: 40px auto; padding: 40px 30px; background: var(--glass); border: 1px solid var(--glass-border); border-radius: 20px; flex: 1; text-align: center; }
+        
+        h1 { margin-bottom: 20px; color: var(--primary); }
+        p { line-height: 1.6; margin-bottom: 25px; color: var(--text-light); font-size: 1.1rem; }
+        
+        .contact-email { 
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 15px 30px; background: var(--primary); color: white; 
+            text-decoration: none; border-radius: 12px; font-weight: 600; 
+            font-size: 1.1rem; transition: 0.3s; box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+        }
+        .contact-email:hover { background: #4338ca; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4); }
+        
+        footer { margin-top: auto; padding: 25px; text-align: center; border-top: 1px solid var(--glass-border); background: var(--glass); }
+        .footer-links a { margin: 0 10px; color: var(--text-light); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--primary); }
+        .copyright { margin-top: 15px; font-size: 0.8rem; color: var(--text-light); opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="logo">QuickQR Pro</a>
+</nav>
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions, feedback, or need support regarding QuickQR Pro, feel free to reach out to us. We are always happy to help and improve our tool!</p>
+    
+    <p>You can email us directly at:</p>
+    
+    <a href="mailto:tasouweralam903@gmail.com" class="contact-email">
+        ✉️ tasouweralam903@gmail.com
+    </a>
+    
+    <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.8;">We usually respond within 24-48 hours.</p>
+</div>
+
+<footer>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+    </div>
+    <div class="copyright">&copy; 2026 QuickQR Pro. Built securely for the web.</div>
+</footer>
+
+</body>
+</html>
